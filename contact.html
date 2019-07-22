@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/gridstyle.css">
+    </head>
+    <body background="http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol2.jpg">
+
+<header>
+        <div class="topbar-bg">
+                <div class="container">
+        
+                    <div class="row">
+                        
+        
+                        <div class="col-12">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <div class="col-3">
+                                    <!-- <a class="navbar-brand" href="#">Scott Finlay</a> -->
+                                    <div id="nameplate">    
+                                            <h1>Scott Finlay</h1>
+                                        </div>
+                                </div>
+        
+                                <!-- This looks like the button that appears if the website is shrunk down to mobile devices. Since I don't want a button thing to appear, I don't think I need any of this. -->
+                                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+        
+        
+                                <div class="col-6">
+                                    <!-- This is the variable-size middle group of columns that separates the Nameplate on the left, from the Links on the right. -->
+                                    <!-- Middle Text -->
+                                </div>
+        
+                                <div class="col-3">
+                                    <div class="navbar-nav">
+                                        <a class="nav-item nav-link" href="index.html">About Me</a>
+                                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                                        <a class="nav-item nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                                    </div>
+                                </div>
+        
+        
+        
+                                </div>
+                        </nav>
+                    </div>
+                
+                
+                
+                </div>
+            </div>
+                <!-- This is legacy code, my own custom Topframe Navbar. This is being replaced by the Bootstrap Navbar. -->
+                    <!-- <div id="topframe">
+                        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+                            <div id="topframe-content">
+                                <div id="nameplate">    
+                                    <h1>Scott Finlay</h1>
+                                </div>
+            
+            
+            
+            
+                                <div id="topframe-links">
+            
+            
+            
+                                    <div id="topframe-about">
+                                        <a href="about.html">About</a>
+                                    </div>
+            
+            
+                                    <div id="topframe-portfolio">
+                                        <a href="portfolio.html">Portfolio</a>
+                                    </div>
+            
+            
+                                    <div id="topframe-contact">
+                                        <a href="contact.html">Contact</a>
+                                    </div>
+            
+            
+            
+                                </div>
+                            </div>
+                        </nav>
+                    </div> -->
+</header>        
+        <div class="container">
+
+            <div id="content">
+                    
+                    
+                    
+                    <!-- About Me is its own Row -->
+                        <div class="row">
+                            <div class="col-12">
+                            <div id="aboutme"> 
+                                Contact
+                    
+                            </div>
+                        </div>
+                    
+                            <div id="divider">
+                    
+                            </div>
+                    
+                            <hr id="hr"/>
+                        </div>
+                
+     
+
+
+
+
+
+                    <form>
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2">E-mail</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="you@example.com">
+                                </div>
+                            </div>
+                        </div>
+                                <!-- Note: The Message box here is copy-pasted from my old custom 
+                                    code, because I couldn't find a way in Bootstrap input-forms to 
+                                    have a text box be resizable at all. -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="msg">Message:</label>
+                                    <textarea id="msg" class="form-control" name="user_message"></textarea>
+                                </div>
+                            </div>
+            </div>
+
+        </form>
+                        
+<!-- Legacy Code, this was my old non-Bootstrap Form Input code. -->
+        <!-- <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+          </form> -->
+
+              <button type="button" class="btn btn-info">Submit</button>
+
+    </div>
+
+    
+
+
+
+
+
+
+<!-- The Footer is all its own Row -->
+</div>
+</div>
+<div class="row">
+        <div class="col-md-12">
+            <footer id="footer" class="mt-auto py-3">
+               © Scott Finlay 2019
+            </footer>
+        </div>
+    </div>
+        </body>
+
+</html>

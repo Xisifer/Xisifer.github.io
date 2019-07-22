@@ -1,0 +1,371 @@
+#topframe {
+    background-color:white;
+    position:relative;
+    border-bottom: 2px solid grey;
+    height:90px;
+    top:0;
+    max-width:100%;
+
+}
+
+#topframe-content {
+    width:960px;
+    margin:0 auto;
+}
+
+
+
+#topframe-links {
+    float:right;
+    display: flex;
+    padding-top: 25px;
+    vertical-align:middle;
+    text-size-adjust:13px;
+    color:gray;
+
+
+}
+
+
+#topframe-about {
+    left: 20px;
+    border-right: 1px solid gray;
+    padding-right:20px;
+}
+
+
+#topframe-portfolio {
+    border-right: 1px solid gray;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#topframe-contact {
+    /* border-right: 1px solid gray; */
+    padding-left: 20px;
+}
+
+
+#nameplate {
+    /* border: 5px solid red; */
+    padding: 10 0;
+    background-color:teal;
+    color:white;
+    width: 250px;
+    height: 95px;
+    text-align:center;
+    margin:0;
+    font-size:36px;
+    /* BLACK MAGIC FLEXBOX STUFF */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* BLACK MAGIC, BLACK MAGIC */
+    
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0;
+    /* Adding a tiny little bit of border to make it appear solid on full resolution */
+    /* border-bottom: 0.2px solid grey; */
+}
+
+
+
+
+
+/* This is the background of the Topbar, which is sitting outside of the Container. */
+.topbar-bg {
+    background-color: #f8f9fa;
+    border-bottom: 0.25em solid grey;
+}
+
+/* Here I am inserting the CSS overrides for customizing the Bootstrap. */
+
+/* This sets the height of the Navbar to be equal to my custom Topbar */
+
+
+
+
+
+
+
+/* End of Topbar stuff */
+
+
+
+
+
+
+/* Beginning of Portfolio page CSS content */
+
+#content {
+    font-family: sans-serif;
+    max-width:960px;
+    background-color:white;
+    min-height:500px;
+    height:auto;
+    /* text-align:center; */
+    margin:35px auto 0 auto;
+    padding-left:30px;
+    padding-right:30px;
+    border: 1px solid grey;
+} 
+
+
+body {
+    margin:auto;
+    padding:auto;
+}
+
+ #aboutme {
+     font-family: serif;
+    /* float:left; */
+    color:teal;
+    font-size:36px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom:3px solid #dddddd;
+    margin-bottom:30px;
+} 
+
+
+
+
+#divider {
+    margin-bottom: 3px solid gray 903px;
+    /* padding-bottom: 903px; */
+}
+
+
+
+
+#hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .paragraphtext {
+      color:gray;
+      font-size:16px;
+      line-height:25px;
+      text-indent:30px;
+  }
+
+  .image {
+    padding:5px;
+    max-width:85%;
+    position:relative;
+    justify-content:space-between;
+    align-content:safe center;
+    grid-gap:10px;
+    margin:0 10px 0 10px;
+}
+
+
+.text-image {
+    position:relative;
+    display:inline-block;
+}
+
+
+.text-block {
+    position:absolute;
+    bottom:20px;
+    width:100%;
+    text-align:center;
+    background-color:teal;
+    color:white;
+    padding:20px auto 20px auto;
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 20px; 
+}
+
+  /* End of Portfolio Page Content CSS */
+
+
+
+
+
+
+/* Beginning of Contact Form CSS */
+#name-input {
+    color:gray;
+    padding-bottom:10px;
+}
+
+#email-input {
+    color:gray;
+    padding-bottom:10px;
+}
+
+#message-input {
+    color:gray;
+    padding-bottom:10px;
+}
+
+
+.btn btn-info{
+    color:#fff;
+    background-color:#5bc0de;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* To make sure that all labels have the same size and are properly aligned */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    padding: 5px 0 10px 0;
+  }
+  
+  input, textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* To give the same size to all text fields */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* To give a little highlight on active elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* To give enough room to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* To position the buttons to the same position of the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 44%;
+    margin-right:44%
+  }
+
+
+
+
+
+/* End of Contact Form CSS */
+
+.image {
+    position:relative;
+    padding:5px;
+    z-index 0;
+}
+
+h2 span {
+    color:white;
+    font: bold 24px;
+    letter-spacing: -1px;
+    background: rgb(0,0,0); /* fallback color */
+    background: rgba(0,0,0, 0.7);
+    position:absolute;
+    padding: 10px;
+    top:200px;
+    left:0;
+    width:100%;
+}
+
+.text-block {
+    position:absolute;
+    bottom:20px;
+    max-width:275px;
+    text-align:center;
+    background-color:teal;
+    color:white;
+    /* padding:20 auto 20 auto; */
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 20px;
+}
+
+
+
+.container {
+    width:100%;
+    max-width:960px;
+    margin:0 auto;
+    clear:both;
+}
+
+
+
+
+
+
+
+/* FOOTER CSS */
+
+  #footer {
+    margin-top:auto;
+    position:fixed; 
+    border-top: 8px solid teal;
+    background-color:dimgrey;
+    height:60px;
+    text-align:center;
+    color:white;
+    bottom:0;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+/* 
+a {
+    color:gray;
+    font-size:20px;
+    text-decoration:none;
+}
+
+a:active {
+    background-color:purple;
+}
+
+a:hover {
+    background-color:orange;
+    /* font-weight: bolder; */
+}
+a:focus {
+    background-color:teal;
+    /* font-weight: bolder; */
+} */
+
+/* Content Div contains everything centered
+Float can be used to put things to the left or right of the centered area */
