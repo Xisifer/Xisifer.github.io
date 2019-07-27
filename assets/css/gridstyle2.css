@@ -1,100 +1,100 @@
-#topframe {
-    background-color:white;
-    position:relative;
-    border-bottom: 2px solid grey;
-    height:90px;
-    top:0;
-    max-width:100%;
-
+.nav-link {
+    color:white;
+    font-size:16px;
 }
 
-#topframe-content {
-    width:960px;
-    margin:0 auto;
+.infoLink {
+    bottom:10px;
 }
 
-
-
-#topframe-links {
-    float:right;
-    display: flex;
-    padding-top: 25px;
-    vertical-align:middle;
-    text-size-adjust:13px;
-    color:gray;
-
-
+#currentPage {
+    font-size:22px;
 }
 
+/* Animation Code */
 
-#topframe-about {
-    left: 20px;
-    border-right: 1px solid gray;
-    padding-right:20px;
-}
+@keyframes example {
+    from {background-color: #111;}
+    to {background-color: steelblue;}
+  }
+  
+
+  /* ================================================= */
 
 
-#topframe-portfolio {
-    border-right: 1px solid gray;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-#topframe-contact {
-    /* border-right: 1px solid gray; */
-    padding-left: 20px;
-}
-
-img {
-    max-width:275px;
-    max-height:205px;
-}
-#nameplate {
-    /* border: 5px solid red; */
-    padding: 10 0;
+a:hover {
+    background-color: #111;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 0.4s;
     background-color:steelblue;
-    color:skyblue;
-    width: 250px;
-    height: 95px;
-    text-align:center;
-    margin:0;
-    font-size:36px;
-    /* BLACK MAGIC FLEXBOX STUFF */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* BLACK MAGIC, BLACK MAGIC */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ================================================= */
+
+
+@keyframes anim{
+    0% { }
+    20%  { z-index:11;\transform: skewX(5deg) translateX(-100%); }
+    40%   { transform: skewX(0deg) translateX(0);
+width:100%; z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+    60%   { transform: skewX(3deg) translateX(0);
+width:100%;z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+    80%   { transform: skewX(1deg) translateX(-100%);
+width:60%;z-index:11; box-shadow: 10px 10px 5px #eaeaea;}
+    100%   { transform: skewX(-5deg) translateX(-50px);
+width:30%;z-index:1; box-shadow: none;}
+}
+
+.anim-trans {
+    animation: anim 4s ease-in-out;
+    }
+
     
-}
+.transition {
+    position:absolute;
+    height:100%;
+    width:30%;
+    background:#d6d6d6;
+    transform: skewX(-5deg) translateX(-50px);
+    transition:2s all ease-in-out;
+    -webkit-transition:2s all ease-in-out;
+  }
+  
+  .content {
+    position:relative;
+    padding:200px 0 0 200px;
+    color:#000;
+    z-index:10;
+    height:300px;
+  }
+  
+  .cta {
+    outline:none;
+    border:none;
+    text-decoration:none;
+    text-transform:uppercase;
+    background:#202020;
+    color:#eaeaea;
+    box-sizing:border-box;
+    margin-top:20px;
+    padding:10px 40px;
+  }
 
-nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-    padding: 0;
-    /* Adding a tiny little bit of border to make it appear solid on full resolution */
-    /* border-bottom: 0.2px solid grey; */
-}
-
-
-
-
-
-/* This is the background of the Topbar, which is sitting outside of the Container. */
-.topbar-bg {
-    background-color: #f8f9fa;
-    border-bottom: 0.25em solid grey;
-}
-
-/* Here I am inserting the CSS overrides for customizing the Bootstrap. */
-
-/* This sets the height of the Navbar to be equal to my custom Topbar */
-
-
-
-
-
-
-
-/* End of Topbar stuff */
-
+  
+    /* ================================================= */
 
 
 
@@ -142,7 +142,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
     color: #818181;
     display: block;
   }
