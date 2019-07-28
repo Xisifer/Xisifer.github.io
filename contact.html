@@ -4,129 +4,116 @@
 
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-            <link rel="stylesheet" type="text/css" href="assets/css/gridstyle.css">
+            <link rel="stylesheet" type="text/css" href="assets/css/gridstyle2.css">
     </head>
     <!-- <body> -->
     <body background="http://i.imgur.com/mGV7yGM.jpg">
         <div class= "bodycontent">
     
     
-        <!-- Side navigation -->
-        <div class="sidenav">
-            <a class="nav-item nav-link" href="index.html">About Me</a>
-            <a class="nav-item nav-link" href="sidebar.html">Portfolio</a>
-            <a class="nav-item nav-link" href="contact.html" id="currentPage">Contact</a>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <a class="nav-item nav-link infoLink" href="https://www.linkedin.com/in/scottfinlay/">LinkedIn</a>
-            <a class="nav-item nav-link infoLink" href="https://github.com/Xisifer">GitHub</a>
-            <a class="nav-item nav-link infoLink" href="Scott_Finlay_Resume.PDF">Resume</a>
-        </div>
-        
-        <div class="container">
+            <!-- Side navigation -->
+            <div class="sidenav">
+                <a class="nav-item nav-link" href="index.html">About Me</a>
+                <a class="nav-item nav-link" href="sidebar.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html" id="currentPage">Contact</a>
+                
+                <a class="nav-item nav-link infoLink" href="https://www.linkedin.com/in/scottfinlay/">LinkedIn</a>
+                <a class="nav-item nav-link infoLink" href="https://github.com/Xisifer">GitHub</a>
+                <a class="nav-item nav-link infoLink" href="Scott_Finlay_Resume.PDF">Resume</a>
+            </div>
+            
+            <div class="container">
 
-            <div id="content">
-                    
-                    
-                    
+                <div id="content">
+                           
                     <!-- About Me is its own Row -->
-                        <div class="row">
-                            <div class="col-12">
-                            <div id="aboutme"> 
-                                Contact Me About Stuff
-                    
-                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                        <div id="aboutme"> 
+                            Contact Me About Stuff
+                
                         </div>
-                    
-                            <div id="divider">
-                    
-                            </div>
-                    
-                            <hr id="hr"/>
+                    </div>
+                
+                        <div id="divider">
+                
                         </div>
                 
-     
+                        <hr id="hr"/>
+                    </div>
 
-
-
-
+                    <div class="row-fluid">
+                        <div class="col-md-12">
+                                <p class="paragraphtext">
+                                    <br>
+                                        <!-- After graduation, I moved to Texas to continue what had previously been a summer job: Video Game Quality Assurance. 
+                                        My professional resume has included credits on everything from semi-obscure Japanese RPGs <i>(Eternal Sonata[PS3])</i> 
+                                        to big-budget Triple-A titles <i>(Halo 4, Sid Meier's Civilization V) </i> to MMOs <i>(City of Heroes, Lineage II, 
+                                        DC Universe Online)</i> and much more. -->
+                                        I can be reached at:
+                                </p>
+                                <p class="paragraphtext">
+                                    <br>
+                                    Cell: (###)###-####
+                                    <br>
+                                    Email: blank@placeholder.com
+                                </p>
+                        </div>
+                    </div>
 
                     <form>
-                    <div class="container">
+                        <div class="container">
 
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="formGroupExampleInput">Name</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput">Name</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                                    </div>
                                 </div>
                             </div>
+
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="formGroupExampleInput2">E-mail</label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="you@example.com">
+                                    </div>
+                                </div>
+                            </div>
+                                    <!-- Note: The Message box here is copy-pasted from my old custom 
+                                        code, because I couldn't find a way in Bootstrap input-forms to 
+                                        have a text box be resizable at all. -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="msg">Message:</label>
+                                        <textarea id="msg" class="form-control" name="user_message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-info">Submit</button>
                         </div>
-
-
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="formGroupExampleInput2">E-mail</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="you@example.com">
-                                </div>
-                            </div>
-                        </div>
-                                <!-- Note: The Message box here is copy-pasted from my old custom 
-                                    code, because I couldn't find a way in Bootstrap input-forms to 
-                                    have a text box be resizable at all. -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="form-group">
-                                    <label for="msg">Message:</label>
-                                    <textarea id="msg" class="form-control" name="user_message"></textarea>
-                                </div>
-                            </div>
+                    </form>
+                </div>
             </div>
-
-        </form>
-                        
-<!-- Legacy Code, this was my old non-Bootstrap Form Input code. -->
-        <!-- <form action="/my-handling-form-page" method="post">
-            <div>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name">
-            </div>
-            <div>
-              <label for="mail">E-mail:</label>
-              <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
-              <label for="msg">Message:</label>
-              <textarea id="msg" name="user_message"></textarea>
-            </div>
-          </form> -->
-
-              <button type="button" class="btn btn-info">Submit</button>
-
-    </div>
-
-    
-
+        </div>
 
 
 
 
 
 <!-- The Footer is all its own Row -->
-</div>
-</div>
-<div class="row">
-        <div class="col-md-12">
-            <footer id="footer" class="mt-auto py-3">
-               © Scott Finlay 2019
-            </footer>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <footer id="footer" class="mt-auto py-3">
+                © Scott Finlay 2019
+                </footer>
+            </div>
         </div>
-    </div>
-        </body>
+    </body>
 
 </html>
