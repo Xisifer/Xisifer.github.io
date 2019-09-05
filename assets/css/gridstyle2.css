@@ -196,7 +196,7 @@ width:30%;z-index:1; box-shadow: none;}
 
 #content {
     font-family: sans-serif;
-    max-width:75%;
+    max-width:100%;
     background-color:rgba(255,255,255,0.8);
     min-height:500px;
     height:auto;
